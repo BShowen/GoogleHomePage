@@ -1,6 +1,6 @@
 Hi! 
 
-Here you will find and Html file and a CSS file. 
+Here you will find and Html file, a CSS file, and a pictures folder. Guess what I keep in my pictures folder... 
 
 This is my first project on Odin and this was also my first time building ANYTHING with html/css. Ive been studying for about a month now so be easy on me. 
 
