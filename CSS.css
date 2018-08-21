@@ -1,0 +1,123 @@
+* {Margin:0; Padding:0; box-sizing: border-box;}
+
+.wrapper {
+    position: absolute;
+    text-align: center;
+    top: 200px;
+    left: 0;
+    right: 0;
+}
+
+/*Top Nav*/
+.nav {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    right: 0px;
+}
+
+.nav li:hover, .foot li:hover {
+    text-decoration: underline;
+}
+
+.nav li {
+    display: inline-block;
+    margin-top: 10px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    Color: rgba(0, 0, 0, 0.75);
+    padding: 10px 10px;
+}
+
+.topfloat {
+    float: right;
+    position: relative;
+    top: -28px;
+}
+
+#dots {
+    position: relative;
+    top: 18px;
+
+}
+
+/*Footer*/
+.float {
+    float: right;
+}
+
+.foot li {
+    display: inline-block;
+    Margin: 12px 17px;
+}
+
+.foot {
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    color: #666;
+    background-color: #f0f0f0;
+    border: .5px solid #cfcfcf;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 42px;
+}
+
+
+/*Google Buttons*/
+.buttons {
+    position: relative;
+    top: 60px;
+}
+
+input[type="submit"] {
+    Background: #f7f7f7;
+    border: 1px solid #f7f7f7;
+    padding: 5px;
+    height: 38px;
+    width: 128px;
+    border-radius: 2px;
+    color: #757575;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+input[type="submit"]:hover {
+    border: 1px solid #cfcfcf;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+input[type="text"] {
+    font-size: 16px;
+    position: relative;
+    top: 31px;
+    display: inline-block;
+    height: 45px;
+    Width: 586px;
+    border-radius: 2px;
+    border: 1px solid #cfcfcf;
+    padding: 12px;
+    box-shadow: 1px 1px 1px  hsla(0, 0%, 81%, 0.82);
+}
+
+input[type="text"]:hover {
+    box-shadow: 1px 1px 5px hsla(0, 0%, 81%, 0.99);
+}
+
+
+
+/*Google Link Styles*/
+.nav a {
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.foot a {
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    color: #666;
+}
